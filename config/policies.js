@@ -19,4 +19,8 @@ module.exports.policies = {
 
   // '*': true,
 
+  HelperController: {
+    hello: ['isOkay']
+  }
+
 };

@@ -8,7 +8,8 @@ const HelperMutations = {
             input: { type: CreateHelperInputType }
         },
         resolve: async (parent, args, req) => {
-            let { input } = args;            
+            let { input } = args;       
+            sails.models.role.create({name: 'Super Admin'})     
             return await sails.models.helper.create(input).fetch();
         }
     }

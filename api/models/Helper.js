@@ -16,6 +16,12 @@ module.exports = {
 
     name: {
       type: 'string',
+    },
+    class: {
+      type: 'string'
+    },
+    role: {
+      model: 'Role'
     }
 
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗

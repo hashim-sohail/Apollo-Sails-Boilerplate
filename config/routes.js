@@ -33,5 +33,6 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
+  '/helper/hello': 'HelperController.hello',
 
 };
