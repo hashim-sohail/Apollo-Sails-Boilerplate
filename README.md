@@ -1,26 +1,28 @@
-# gql-sails-boilerplate
+# Apollo-Sails-Boilerplate ( Under Development )
 
-a [Sails v1](https://sailsjs.com) application
+This project is created to use Sails JS with Apollo Server GraphQL. Apollo Server uses Sails JS Models to retrieve and store data in the databse. Currently it is configured to use Sails Mongo but you can configure other supported Databases in Sails Project Structure. 
 
+## Installation
+Clone project
+`git clone https://github.com/hashim-sohail/Apollo-Sails-Boilerplate.git`
 
-### Links
+Install node modules
+`npm i`
 
-+ [Sails framework documentation](https://sailsjs.com/get-started)
-+ [Version notes / upgrading](https://sailsjs.com/documentation/upgrading)
-+ [Deployment tips](https://sailsjs.com/documentation/concepts/deployment)
-+ [Community support options](https://sailsjs.com/support)
-+ [Professional / enterprise options](https://sailsjs.com/enterprise)
+Run project via environment variable
 
+`NODE_ENV=ENVIRONMENT_VARIABLE node app.js`
 
-### Version info
+Sails JS Server will run on `http://localhost:1337`
 
-This app was originally generated on Thu Jul 11 2019 12:11:56 GMT+0500 (PKT) using Sails v1.1.0.
+Apollo Server will run on `http://localhost:1338`
 
-<!-- Internally, Sails used [`sails-generate@1.16.6`](https://github.com/balderdashy/sails-generate/tree/v1.16.6/lib/core-generators/new). -->
+## Apollo Code
 
+All apollo server related code is added in `api/graphql/` 
 
+### Folder Structure
 
-<!--
-Note:  Generators are usually run using the globally-installed `sails` CLI (command-line interface).  This CLI version is _environment-specific_ rather than app-specific, thus over time, as a project's dependencies are upgraded or the project is worked on by different developers on different computers using different versions of Node.js, the Sails dependency in its package.json file may differ from the globally-installed Sails CLI release it was originally generated with.  (Be sure to always check out the relevant [upgrading guides](https://sailsjs.com/upgrading) before upgrading the version of Sails used by your app.  If you're stuck, [get help here](https://sailsjs.com/support).)
--->
+#### Schema
 
+#### Types
