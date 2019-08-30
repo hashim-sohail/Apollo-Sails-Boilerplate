@@ -37,8 +37,5 @@
     "url": "git://github.com/hashim/gql-sails-boilerplate.git"
   },
   "author": "hashim",
-  "license": "",
-  "engines": {
-    "node": "^8.16"
-  }
+  "license": ""
 }
