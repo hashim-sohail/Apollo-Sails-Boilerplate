@@ -1,0 +1,10 @@
+{
+    "version": 1,
+    "name": "sails-graphql-boilerplate",
+    "builds": [
+        {
+            "src": "app.js",
+            "use": "@now/node-server"
+        }
+    ]
+}
