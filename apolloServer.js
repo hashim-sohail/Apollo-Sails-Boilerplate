@@ -1,6 +1,6 @@
 const express = require('express');
-const { ApolloServer, PubSub, UserInputError, AuthenticationError } = require('apollo-server-express');
-const schema = require('./api/graphql/schema').Schema;
+const { ApolloServer, PubSub } = require('apollo-server-express');
+const { Schema } = require('./api/graphql/schema/schema');
 const fs = require('fs');
 const https = require('https');
 const http = require('http');
@@ -23,7 +23,7 @@ const environment = process.env.NODE_ENV || 'development'
 const config = configurations[environment]
 
 const apollo = new ApolloServer({
-    schema,
+    schema: Schema,
     context: ({ req }) => ({ req }),
     /**
      * To allow the schema information to be public
