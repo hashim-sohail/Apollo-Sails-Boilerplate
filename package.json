@@ -12,7 +12,7 @@
     "@types/node": "^12.6.2",
     "apollo-server-express": "^2.6.8",
     "graphql": "^14.4.2",
-    "grunt": "1.0.1",
+    "grunt": "1.5.3",
     "sails": "^1.1.0",
     "sails-hook-grunt": "^3.1.0",
     "sails-hook-orm": "^2.1.1",
